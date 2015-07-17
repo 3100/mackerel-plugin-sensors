@@ -34,7 +34,7 @@ def to_value(str)
   str.to_f
 end
 
-if ENV['MACHEREL_AGENT_PLUGIN_META'] == '1'
+if ENV['MACKEREL_AGENT_PLUGIN_META'] == '1'
   require 'json'
 
   meta = {
