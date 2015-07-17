@@ -29,6 +29,8 @@ git clone https://github.com/3100/mackerel-plugin-sensors.git
 command = "ruby /path/to/mackerel-plugin-sensors/temperature-metrics.rb"
 ~~~
 
+- `ruby`などはエージェント動作時に正しくパスが通っているかを確認しましょう。
+
 反映にはエージェントの再起動が必要です。
 
 ## 注意点
