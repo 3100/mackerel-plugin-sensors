@@ -1,6 +1,6 @@
 require 'pathname'
 
-input = `du --block-size=1M /home -d1`
+input = `du --block-size=1M /home --max-depth=1`
 
 def create_hash(input)
   ex = ['lost+found', 'tmp', 'graph', 'volumes', 'home']
